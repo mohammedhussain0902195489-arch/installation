@@ -199,3 +199,4 @@ async function startBot(){
     })
 }
 startBot()
+require('http').createServer((_,res)=>res.end('Bot 24h Live')).listen(process.env.PORT||3000)
